@@ -1,0 +1,27 @@
+.avo-rotator {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avo-slide {
+  display: none;
+  transition: opacity 0.5s ease;
+}
+
+.avo-slide.active {
+  display: block;
+}
+
+.avo-slide img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.avo-slide p {
+  font-size: 1rem;
+  color: #333;
+}
