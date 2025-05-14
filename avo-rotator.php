@@ -16,38 +16,39 @@ function avo_rotator_enqueue_assets() {
 add_action('wp_enqueue_scripts', 'avo_rotator_enqueue_assets');
 
 function avo_rotator_shortcode() {
-    $slides = array(
+$slides = array(
     array(
-        'img' => plugin_dir_url(__FILE__) . 'https://avocadoweb.net/wp-content/uploads/2025/04/aws.png',
+        'img' => 'https://avocadoweb.net/wp-content/uploads/2025/04/aws.png',
         'alt' => 'AWS Cloud Hosting',
         'desc' => 'Reliable and scalable cloud hosting powered by AWS infrastructure.'
     ),
     array(
-        'img' => plugin_dir_url(__FILE__) . 'https://avocadoweb.net/wp-content/uploads/2025/05/WordPress.png',
+        'img' => 'https://avocadoweb.net/wp-content/uploads/2025/05/WordPress.png',
         'alt' => 'WordPress Hosting',
         'desc' => 'Optimized WordPress hosting for speed, security, and simplicity.'
     ),
     array(
-        'img' => plugin_dir_url(__FILE__) . 'https://avocadoweb.net/wp-content/uploads/2023/07/cloudpanel-logo.png',
+        'img' => 'https://avocadoweb.net/wp-content/uploads/2023/07/cloudpanel-logo.png',
         'alt' => 'CloudPanel Management',
         'desc' => 'Modern server control panel to manage your cloud servers efficiently.'
     ),
     array(
-        'img' => plugin_dir_url(__FILE__) . 'https://avocadoweb.net/wp-content/uploads/2024/12/woocommerce-logo.png',
+        'img' => 'https://avocadoweb.net/wp-content/uploads/2024/12/woocommerce-logo.png',
         'alt' => 'WooCommerce Hosting',
         'desc' => 'Ecommerce-optimized hosting designed for speed and conversion with WooCommerce.'
     ),
     array(
-        'img' => plugin_dir_url(__FILE__) . 'images/marketing.png',
+        'img' => plugin_dir_url(__FILE__) . 'images/marketing.png', // Local image stays
         'alt' => 'Marketing Services',
         'desc' => 'Custom marketing strategies to grow your brand and online presence.'
     ),
     array(
-        'img' => plugin_dir_url(__FILE__) . 'https://avocadoweb.net/wp-content/uploads/2023/06/ai-1.jpg',
+        'img' => 'https://avocadoweb.net/wp-content/uploads/2023/06/ai-1.jpg',
         'alt' => 'Web & AI Development',
         'desc' => 'Advanced web and AI solutions tailored for your business needs.'
     ),
 );
+
 
 
     ob_start();
