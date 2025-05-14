@@ -1,4 +1,3 @@
-/* === File: avo-rotator.php === */
 <?php
 /*
 Plugin Name: AvoRotator
