@@ -1,4 +1,4 @@
-# AvoRotator
+# Avo-Rotator
 
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
 ![WordPress Tested](https://img.shields.io/badge/WordPress-6.5+-green)
